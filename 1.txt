@@ -1,0 +1,10 @@
+# HealthCare
+Medical Service at your doorstep and your medical records
+
+Our app promotes periodical regular check ups by reminding the users. To help the user, we connect the user with a
+practioner who'll then come your home and generating a report. 
+
+Our app has 3 activities: 
+1. One contains medical history of a patient.
+2. One shows the nearby clinics you can contact to get your regular check up.
+3. One shows your family doctors whom you can consult with your reports.
