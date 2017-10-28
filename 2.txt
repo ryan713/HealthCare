@@ -1,0 +1,8 @@
+# HealthCare
+Medical Service at your doorstep and your medical records, but wait there's more!
+You can consult with your physician with just a click of a button, and also after that you can upload 
+your prescriptions directly to the netmeds platform directly from this app.
+
+Technical Stack:
+1. Android App.
+2. Google Firebase.
