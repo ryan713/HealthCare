@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,19 +9,19 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:background="@color/colorPrimaryDark"
-        android:orientation="vertical"
-        android:layout_height="wrap_content">
+        android:orientation="vertical">
 
         <TextView
+            android:id="@+id/reminder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:text="Reminder"
-            android:textSize="24sp"
             android:textColor="@android:color/white"
+            android:textSize="24sp"
             android:textStyle="bold|italic"
-
 
             />
 
@@ -30,8 +29,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            android:textColor="@android:color/white"
             android:text="Date"
+            android:textColor="@android:color/white"
             android:textSize="24sp"
             android:textStyle="bold|italic" />
 
@@ -46,20 +45,22 @@
 
 
         <Button
-            
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="M-history" />
+            android:text="M-history"
+            android:id="@+id/history"/>
 
         <Button
+            android:id="@+id/clinic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="CLINICS" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/doctor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"

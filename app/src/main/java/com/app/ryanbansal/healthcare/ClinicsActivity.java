@@ -26,7 +26,7 @@ public class ClinicsActivity extends AppCompatActivity {
 
         ListView listView = (ListView) findViewById(R.id.listView);
 
-        listView.setAdapter(adapter );
+        listView.setAdapter(adapter);
 
     }
 }
